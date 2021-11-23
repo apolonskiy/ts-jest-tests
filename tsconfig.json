@@ -28,6 +28,6 @@
     ".vscode",
     "cjs",
     "esm",
-    "src/tc-models-unit-tests"
+    "src/tests"
   ]
 }
