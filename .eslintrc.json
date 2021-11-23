@@ -1,0 +1,11 @@
+{
+  "root": true,
+  "extends": [
+    "eslint-config-standard-with-typescript"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": { "project": ["./tsconfig.lint.json"] },
+  "plugins": [
+    "@typescript-eslint"
+  ]
+}

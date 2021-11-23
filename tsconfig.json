@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "declaration": true,
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "lib": ["es2015", "es2016", "dom"],
+    "moduleResolution": "node",
+    "allowJs": false,
+    "outDir": "cjs",
+    "rootDir": "./src",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "pretty": true,
+    "strictNullChecks": true,
+    "inlineSourceMap": true,
+    "strict": true,
+    "target": "es5",
+    "module": "commonjs"
+  },
+  "include": [
+    "src/apis",
+    "src/index.ts"
+  ],
+  "exclude": [
+    "./node_modules/*",
+    ".idea",
+    ".vscode",
+    "cjs",
+    "esm",
+    "src/tc-models-unit-tests"
+  ]
+}
