@@ -20,6 +20,7 @@
   },
   "include": [
     "src/apis",
+    "src/bineryApi",
     "src/index.ts"
   ],
   "exclude": [
@@ -28,6 +29,7 @@
     ".vscode",
     "cjs",
     "esm",
-    "src/tests"
+    "src/tests",
+    "src/bineryTests"
   ]
 }

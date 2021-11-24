@@ -3,6 +3,8 @@
   "include": [
     "src/tests",
     "src/apis",
+    "src/bineryApi",
+    "src/bineryTests",
     "src/index.ts"
   ],
   "exclude": [
