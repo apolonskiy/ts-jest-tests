@@ -4,7 +4,7 @@ import {
   ICreateProductErrorResponse,
   ProductApi
 } from '../../bineryApi'
-import { binaryBaseUrl } from '../testConstants'
+import { bineryBaseUrl } from '../testConstants'
 
 let companyApi: CompanyApi
 let productApi: ProductApi
@@ -15,8 +15,8 @@ const testPwd = '123456'
 let authToken: string
 describe('POST: /product', () => {
   beforeAll(async () => {
-    companyApi = new CompanyApi(binaryBaseUrl)
-    productApi = new ProductApi(binaryBaseUrl)
+    companyApi = new CompanyApi(bineryBaseUrl)
+    productApi = new ProductApi(bineryBaseUrl)
 
     const loginResp = await companyApi.login({ email: testEmail, password: testPwd })
     authToken = (loginResp.data as ILoginResponse).data.auth.token
